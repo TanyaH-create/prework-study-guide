@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -23,14 +24,39 @@
           <li>declarations are not case sensitive but elements ARE case sensitive</li>
         </ul>
       </section>
-      <section class="card" id="css-section">
+      <section class="card1" id="css-section">
         <h2>CSS</h2>
         <ul>
           <li>CSS provides the style of a webpage</li>
+          <li>a period indicates a class selector .classname</li>
+          <li>3 ways to style: 
+              <ol>
+                 <li>inline - style dirctly in HTML, quick changes but less flexible, must edit individually</li>
+                 <li>internal style sheet - rules for webpage in head section, apply only to that page 
+                can style multiple elements
+                 </li>
+                <li>external style sheet - most preferred, all css rules in seperate file, easier design changes, link element
+                placed in head section
+                </li>
+             </ol>
+          </li>
+          <li>Seperation of concerns - seperate code into diff files based on use. Each section should have own responsibility</li>
+          <li>CSS rule structure: Declaration = (propertty: value;)</li>
+          <li>CSS BOX MODEL: content, padding,border,margin</li>
+          <ol><li>margin: indicates how much space we want around the outside of an element</li>
+              <li>padding: indicates how much space we want around the content inside an element</li>
+              <li>increasing the padding makes entire element larger</li></ol>
+          <li>*xxxxx= wild card symbol - applies rule to all elements visible on page</li>
+          <li>can group selectors together to use same declaration and styling</li>
+          <li>CSS file in linked to HTML file</li>
+          <li>a period .classname indicates a class selector, allows rule to be shared to any element and can be assigned in HTML
+              using class="classname"
+          </li>
+          <li>assign colors with words or HEX# color codes</li>
         </ul>
 
       </section>
-      <section class="card" id="git-section">
+      <section class="card2" id="git-section">
         <h2>Git</h2>
         <ul>
           <li>git is used to track changes</li>
@@ -40,10 +66,11 @@
           <li>git commit -m "comment":  adds to repository</li>
           <li>git pull branchname (ex. git pull main): syncs any modifications to your version</li>
           <li>it is imporant frequently sync the local version of code with the remote version on GitHub</li>
+          <li>touch filename to create a file</li>
         </ul>
 
       </section>
-      <section class="javascript-section">
+      <section class="card3" id="JavaScript">
         <h2>JavaScript</h2>
         <ul>
           <li>JavaScript handles the logic/interactivity of a webpage</li>
