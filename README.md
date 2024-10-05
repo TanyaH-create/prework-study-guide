@@ -20,4 +20,4 @@ N/A
 
 ## License
 
-Please refer to the license in the REPO
+Please refer to the LICENSE in the repo
